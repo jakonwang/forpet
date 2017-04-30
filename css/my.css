@@ -1,0 +1,992 @@
+@charset "utf-8";
+#my-setting{
+	background:#f4f4f4;;
+}
+/* Start head-portrait*/
+#head-portrait{
+	width:100%;
+	height:12.5rem;
+	overflow:hidden;
+	position:relative;
+}
+#head-portrait .head-img-bg{
+	width:100%;
+	height:12.5rem;
+	-webkit-filter:blur(1px); /* Chrome, Safari, Opera */
+    filter:blur(1px);
+}
+#head-portrait #head-img{
+	width:12rem;
+	height:8.5rem;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-4rem;
+	margin-left:-6rem;
+	text-align:center;
+	overflow:hidden;
+}
+#head-portrait #head-img .head-img{
+	width:6.3rem;
+	height:6.3rem;
+	-webkit-border-radius:6.3rem;
+	-moz-border-radius:6.3rem;
+	-ms-border-radius:6.3rem;
+	border-radius:6.3rem;
+	border:2px solid #2ecc71;
+}
+#head-portrait #head-img h1{
+	font-size:1.8rem;
+	color:#FFF;
+	line-height:1rem;
+}
+/* End head-portrait*/
+/* Start my-content */
+#my-content{
+	margin-top:1.7rem;
+	margin-bottom:5rem;
+}
+#my-content ul li{
+	width:100%;
+	height:4.3rem;
+	line-height:4.3rem;
+	background:#FFF;
+	border-bottom:1px solid #eceef0;
+	text-indent:4.3rem;
+	font-size:1.5rem;
+	color:#000;
+}
+#my-content ul li>a{
+	width:100%;
+	height:4.3rem;
+	display:block;
+	color:#000;
+	background:url(../images/my/enter_arrow.png) 98% center no-repeat;
+	background-size:0.7rem;
+}
+#my-content ul .personaldata{
+	background:#FFF url(../images/my/personal_data.png) no-repeat 1rem center;
+	background-size:2.2rem 2.2rem;
+}
+#my-content ul .friends{
+	background:#FFF url(../images/my/friends.png) no-repeat 1rem center;
+	background-size:2.2rem 2.2rem;
+}
+#my-content ul .mypet{
+	background:#FFF url(../images/my/mypet.png) no-repeat 1rem center;
+	background-size:2.2rem 2.2rem;
+}
+#my-content ul .mycollection{
+	background:#FFF url(../images/my/mycollection.png) no-repeat 1rem center;
+	background-size:2.2rem 2.2rem;
+}
+#my-content ul .myfind{
+	margin-top:2rem;
+	background:#FFF url(../images/my/myfind.png) no-repeat 1rem center;
+	background-size:2.4rem;
+}
+#my-content ul .myadopt{
+	background:#FFF url(../images/my/myadopt.png) no-repeat 1rem center;
+	background-size:2.2rem 2.2rem;
+}
+#my-content ul .myclues{
+	background:#FFF url(../images/my/myclues.png) no-repeat 1rem center;
+	background-size:2.2rem 2.2rem;
+}
+#my-content ul .contactus{
+	background:#FFF url(../images/my/contactus.png) no-repeat 1rem center;
+	background-size:2.2rem 2.2rem;
+}
+/* End my-content */
+/* Start personal-data */
+#personal-data{
+	margin-top:3.85rem;
+	margin-bottom:5rem;
+	width:100%;
+}
+#personal-data>ul>li{
+	width:100%;
+	height:5.3rem;
+	background:#FFF;
+	border-bottom:1px solid #eceef0;
+	line-height:5.3rem;
+	font-size:1.6rem;
+	color:#000;
+	text-indent:1.7rem;
+}
+#personal-data .personal-img{
+	height:7.9rem;
+	line-height:7.9rem;
+	position:relative;
+}
+#personal-data .personal-img img{
+	width:6rem;
+	height:6rem;
+	border-radius:6rem;
+	position:absolute;
+	right:3rem;
+	top:50%;
+	margin-top:-3rem;
+}
+#personal-data .personal-img a{
+	width:100%;
+	height:7.9rem;
+}
+#personal-data>ul>li a{
+	display:block;
+	width:100%;
+	height:5.3rem;
+	color:#000;
+	background:url(../images/my/enter_arrow.png) no-repeat 98% center;
+	background-size:0.7rem;
+}
+#personal-data li>a>span{
+	float:right;
+	margin-right:1.7rem;
+	color:#AAA;
+}
+/* End personal-data */
+/* Start my-pet-list */
+header #add-pet{
+	position:absolute;
+	right:1rem;
+	top:0;
+	font-size:1.8rem;
+}
+header #add-pet a{
+	color:#FFF;
+	font-family:'microsoft yahei';
+	display:block;
+}
+#my-pet-list{
+	margin-top:3.85rem;
+	margin-bottom:5rem;
+	width:100%;
+}
+#my-pet-list ul li{
+	width:100%;
+	height:6.3rem;
+	background:#FFF;
+	border-bottom:1px solid #eceef0;
+}
+#my-pet-list ul li.nodata{
+	text-align:center;
+	font-size:1.8rem;
+	height:3rem;
+	border-bottom:1px solid #f3f3f3;
+	line-height:3rem;
+	color:#CCC;
+	font-family:'microsoft yahei';
+	background:#FFF;
+	margin:0;
+	padding:0;
+}
+#my-pet-list ul li>a{
+	width:100%;
+	height:6.3rem;
+	display:block;
+	background:url(../images/my/enter_arrow.png) no-repeat 98% center;
+	background-size:0.7rem;
+}
+#my-pet-list li .my-pet-thumb{
+	width:5.1rem;
+	height:5.1rem;
+	border-radius:5.1rem;
+	margin-top:0.6rem;
+	margin-left:1.2rem;
+	float:left;
+}
+#my-pet-list li .about-pet{
+	float:left;
+	height:3.1rem;
+	line-height:3.1rem;
+	/*background:red;*/
+	margin-left:1rem;
+}
+#my-pet-list li .about-pet .my-pet-name{
+	font-size:1.9rem;
+	color:#000;
+	float:left;
+	font-weight:normal;
+}
+#my-pet-list li .about-pet .my-pet-male,#my-pet-list li .about-pet .my-pet-female,#my-pet-list li .about-pet .my-pet-unknow{
+	display:block;
+	float:left;
+	width:1.5rem;
+	height:3.1rem;
+	margin-left:1rem;
+}
+#my-pet-list li .about-pet .my-pet-male{
+	background:url(../images/my/mypetmale.png) no-repeat center center;
+	background-size:1.5rem 1.5rem;
+}
+#my-pet-list li .about-pet .my-pet-female{
+	background:url(../images/my/mypetfemale.png) no-repeat center center;
+	background-size:1.5rem 1.5rem;
+}
+#my-pet-list li .about-pet .my-pet-unknow{
+	background:url(../images/my/mypetunknow.png) no-repeat center center;
+	background-size:1.5rem 1.5rem;
+}
+#my-pet-list li .about-pet .my-pet-type{
+	display:block;
+	float:left;
+	margin-left:1rem;
+	width:5.3rem;
+	height:3.1rem;
+	line-height:3.1rem;
+	overflow:hidden;
+	background:url(../images/my/type.jpg) no-repeat center center;
+	background-size:5.3rem  1.9rem;
+	text-align:center;
+	color:#eb6100;
+	font-size:1.3rem;
+}
+#my-pet-list li .about-pet .my-pet-age{
+	clear:both;
+	height:3.1rem;
+	/*background:yellow;*/
+	margin:0;
+	padding:0;
+	font-size:1.3rem;
+}
+/* End my-pet-list */
+/* Start contact-us */
+#contact-us{
+	margin-top:4rem;
+	margin-bottom:5rem;
+}
+#contact-us ul{
+	padding:2rem 1.3rem 0;
+}
+#contact-us>ul>li{
+	margin:0 0 1rem 0;
+	background:#FFF;
+	height:9rem;
+	padding:1rem;
+}
+#contact-us>ul>li h2{
+	font-size:1.8rem;
+}
+#contact-us>ul>li .contact-time{
+	font-size:1.5rem;
+	color:#676767;
+}
+#contact-us>ul>li .contact-tel{
+	font-size:1.5rem;
+	letter-spacing:1px;
+	text-decoration:underline;
+}
+/* End contact-us */
+/* Start my-collection */
+#my-collection{
+	margin-top:3.85rem;
+	margin-bottom:5rem;
+}
+#my-collection ul{
+
+}
+#my-collection ul li.my-collection-item{
+	box-sizing:border-box;
+	height:10.5rem;
+	overflow:hidden;
+	border-bottom:1px solid #eceef0;
+	background:#FFF;
+}
+#my-collection ul li.nodata{
+	text-align:center;
+	font-size:1.8rem;
+	height:3rem;
+	border-bottom:1px solid #f3f3f3;
+	line-height:3rem;
+	color:#CCC;
+	font-family:'microsoft yahei';
+	background:#FFF;
+	margin:0;
+	padding:0;
+}
+#my-collection li.my-collection-item>a{
+	width:100%;
+	height:10.5rem;
+	display:block;
+	/*background:red;*/
+	padding:1.1rem;
+	box-sizing:border-box;
+}
+#my-collection .my-collection-item>a .my-colletion-img{
+	width:7.5rem;
+	height:7.5rem;
+	float:left;
+	margin-top:0.5rem;
+}
+#my-collection .my-collection-item>a #my-colletion-desc{
+	width:65%;
+	height:6.8rem;
+	overflow:hidden;
+	padding-left:1em;
+	float:left;
+	line-height:1.6rem;
+}
+#my-collection .my-collection-item>a .my-colletion-title{
+	font-size:1.6rem;
+	color:#989898;
+	width:95%;
+	height:1.7rem;
+	line-height:1.7rem;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	margin-top:0.5rem;
+}
+#my-collection .my-collection-item>a .my-colletion-desc{
+	height:3.3rem;
+	font-size:1.5rem;
+	color:#989898;
+	overflow:hidden;
+}
+#my-collection .my-collection-item .my-colletion-pubdate{
+	width:auto;
+	height:1rem;
+	line-height:1rem;
+	text-align:center;
+	float:right;
+	margin-right:2rem;
+	margin-top:5px;
+	background:url(../images/my/mycollectiontime.png) no-repeat left center;
+	background-size:1rem 1rem;
+	padding-left:1.3rem;
+	font-size:1.2rem;
+}
+/* End my-collection */
+/* Start myAdopt&myRetrieve&myWander*/
+#myAdopt,#myRetrieve,#myWander{
+	margin-top:3.85rem;
+}
+#myAdopt ul li.item,#myRetrieve ul li.item,#myWander ul li.item{
+	width:100%;
+	height:7rem;
+	overflow:hidden;
+	padding:0.5rem;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	border-bottom:1px solid #f3f3f3;
+}
+#myAdopt li.item .thumb,#myRetrieve li.item .thumb,#myWander li.item .thumb{
+	width:6rem;
+	height:6rem;
+	float:left;
+	margin-right:0.9rem;
+}
+#myAdopt li.item h3,#myRetrieve li.item h3,#myWander li.item h3{
+	width:73%;
+	height:2.5rem;
+	line-height:2.5rem;
+	font-size:1.6rem;
+	font-weight:bold;
+	font-family:'microsoft yahei';
+	color:#000;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	float:left;
+}
+#myAdopt li.item .desc,#myRetrieve li.item .desc,#myWander li.item .desc{
+	width:73%;
+	height:3.5rem;
+	line-height:5.2rem;
+	float:left;
+	font-size:1.4rem;
+}
+#myAdopt li.item .tag,#myRetrieve li.item .tag,#myWander li.item .tag{
+	padding:0.2rem;
+	border:1px solid #2ecc71;
+	border-radius:3px;
+	color:#1d7743;
+}
+#myAdopt li.item .sex,#myRetrieve li.item .sex,#myWander li.item .sex{
+	border:1px solid #FFF;
+}
+#myAdopt li.item .sex img,#myRetrieve li.item .sex img,#myWander li.item .sex img{
+	padding-top:0.2rem;
+	width:1.3rem;
+	height:1.3rem;
+}
+#myAdopt li.item .age,#myRetrieve li.item .age,#myWander li.item .age{
+	padding:0.2rem;
+	border:1px solid #FFF;
+}
+#myAdopt li.item .pubdate,#myRetrieve li.item .pubdate,#myWander li.item .pubdate{
+	float:right;
+}
+#myAdopt ul li.nodata,#myRetrieve ul li.nodata,#myWander ul li.nodata{
+	text-align:center;
+	font-size:1.8rem;
+	height:3rem;
+	border-bottom:1px solid #f3f3f3;
+	line-height:3rem;
+	color:#CCC;
+	font-family:'microsoft yahei';
+}
+/* End myAdopt&myRetrieve&myWander */
+/*Start myFriends&addFriendsList*/
+#myFriends,#addFriendsList{
+	margin-top:3.85rem;
+	margin-bottom:4.7rem;
+}
+#myFriends ul,#addFriendsList ul{
+
+}
+#myFriends ul li,#addFriendsList ul li{
+	width:100%;
+	height:5.6rem;
+	border-bottom:1px solid #F3F3F3;
+	padding-left:0.6rem;
+	line-height:5.6rem;
+	font-size:1.6rem;
+	font-family:'microsoft yahei';
+	box-sizing:border-box;
+	position:relative;
+}
+#myFriends ul li.add-friends img,#addFriendsList ul li.add-friends img{
+	width:4.8rem;
+	height:4.8rem;
+	margin-top:0.5rem;
+	float:left;
+	margin-right:0.5rem;
+	border-radius:2.4rem;
+}
+#myFriends ul li a,#addFriendsList ul li a{
+	color:#000;
+	display:block;
+}
+#myFriends ul li.friends .headimgurl,#addFriendsList ul li.friends .headimgurl{
+	width:4.8rem;
+	height:4.8rem;
+	margin-top:0.5rem;
+	float:left;
+	margin-right:0.6rem;
+	border-radius:2.4rem;
+}
+#myFriends ul li.friends h2,#addFriendsList ul li.friends h2{
+	width:75%;
+	font-size:1.6rem;
+	font-weight:normal;
+	height:2.4rem;
+	line-height:2.4rem;
+	float:left;
+	margin-top:0.6rem;
+}
+#myFriends ul li.friends h2 img,#addFriendsList ul li.friends h2 img{
+	width:1.2rem;
+	height:auto;
+	margin-left:0.3rem;
+}
+#myFriends ul li.friends p,#addFriendsList ul li.friends p{
+	width:75%;
+	float:left;
+	height:2.2rem;
+	margin:0;
+	line-height:2.2rem;
+	font-size:1.4rem;
+	color:#CCC;
+	background:url(../images/my/location.png) left center no-repeat;
+	background-size:1.2rem;
+	padding-left:4%;
+}
+#addFriendsList ul li.friends .add{
+	width:5.6rem;
+	height:2.5rem;
+	position:absolute;
+	right:0.5rem;
+	border:1px solid #2ecc71;
+	display:block;
+	line-height:2.5rem;
+	text-align:center;
+	color:#2ecc71;
+	font-size:1.4rem;
+	border-radius:5px;
+	top:1.5rem;
+	font-family:'microsoft yahei';
+}
+/*End myFriends&addFriendsList*/
+/*Start addFriends*/
+#addFriends{
+	margin-top:3.85rem;
+}
+#addFriends label{
+	width:100%;
+	height:2.5rem;
+	line-height:2.5rem;
+	padding:0 0.5rem;
+	display:block;
+	color:#aaa;
+	background:#FFF;
+	box-sizing:border-box;
+	font-size:1.4rem;
+}
+#addFriends .form-control{
+	width:100%;
+	height:2.3rem;
+	margin:20px auto 5px;
+	position:relative;
+}
+#addFriends textarea{
+	height:2.2rem;
+	line-height:2.2rem;
+	width:95%;
+	border:0;
+	border-bottom:1px solid #2ecc71;
+	margin:0 auto;
+	outline:0;
+	resize:none;
+	display:block;
+	font-size:1.6rem;
+	color:#666;
+	overflow:hidden;
+}
+#addFriends #clear{
+	position:absolute;
+	width:2.2rem;
+	height:2.2rem;
+	top:0;
+	right:3%;
+	background:url(../images/my/clear.png) left center no-repeat;
+	background-size:1.8rem 1.8rem;
+	display:none;
+}
+#addFriends .confirm{
+	width:90%;
+	height:3.85rem;
+	line-height:3.85rem;
+	background:#2ecc71;
+	display:block;
+	border:0;
+	border-radius:5px;
+	text-align:center;
+	color:#FFF;
+	outline:none;
+	margin:10px auto;
+	font-size:2rem;
+	font-family:'microsoft yahei';
+}
+#addFriends .error{
+	height:2.5rem;
+	line-height:2.5rem;
+	font-size:1.5rem;
+	padding:0;
+	padding:0 0.5rem;
+	margin:0;
+	box-sizing:border-box;
+	display:none;
+	color:red;
+}
+/*End addFriends*/
+/*Start chat*/
+#chat-bg{
+	background:#ececec;
+}
+#chat{
+	margin-top:3.85rem;
+	margin-bottom:4.6rem;
+	overflow:auto;
+	padding:0 10px;
+	box-sizing:border-box;
+	width:100%;
+	height:auto;
+}
+#chat .time{
+	width:4rem;
+	height:2rem;
+	line-height:2rem;
+	background:#d4d4d4;
+	text-align:center;
+	border-radius:2px;
+	margin:10px auto;
+	font-size:1.4rem;
+	color:#efefef;
+	font-family:'microsoft yahei';
+	clear:both;
+}
+#chat .left{
+	width:90%;
+	float:left;
+	margin-bottom:10px;
+}
+#chat .right{
+	width:90%;
+	float:right;
+	margin-bottom:10px;
+}
+#chat .left .headimgurl{
+	width:4rem;
+	height:4rem;
+	display:block;
+	float:left;
+	margin:0 auto;
+}
+#chat .right .headimgurl{
+	width:4rem;
+	height:4rem;
+	display:block;
+	float:right;
+	margin:0 auto;
+}
+#chat .left .headimgurl img{
+	width:4rem;
+	height:4rem;
+}
+#chat .right .headimgurl img{
+	width:4rem;
+	height:4rem;
+}
+#chat .left .msg{
+	width:auto;
+	max-width:73%;
+	background:#FFF;
+	border:1px solid #DDD;
+	border-radius:3px;
+	padding:10px;
+	float:left;
+	margin-left:12px;
+	font-size:1.5rem;
+	line-height:1.8rem;
+	position:relative;
+	word-wrap: break-word;
+}
+#chat .right .msg{
+	width:auto;
+	max-width:73%;
+	background:#a2e759;
+	border:1px solid #8ebc64;
+	border-radius:3px;
+	padding:10px;
+	float:right;
+	margin-right:12px;
+	font-size:1.5rem;
+	line-height:1.8rem;
+	position:relative;
+	word-wrap: break-word;
+}
+#chat .left .msg:before{
+	content:'';
+	width:0;
+	height:0;
+	border-top: 5px solid transparent;
+    border-right: 10px solid #DDD;
+    border-bottom:5px solid transparent;
+	position:absolute;
+	left:-11px;
+	top:1rem;
+	display:block;
+}
+#chat .left .msg:after{
+	content:'';
+	width:0;
+	height:0;
+	border-top: 5px solid transparent;
+    border-right: 10px solid #FFF;
+    border-bottom:5px solid transparent;
+	position:absolute;
+	left:-10px;
+	top:1rem;
+	display:block;
+
+}
+#chat .right .msg:before{
+	content:'';
+	width:0;
+	height:0;
+	border-top: 5px solid transparent;
+    border-left: 10px solid #8ebc64;
+    border-bottom:5px solid transparent;
+	position:absolute;
+	right:-11px;
+	top:1rem;
+	display:block;
+}
+#chat .right .msg:after{
+	content:'';
+	width:0;
+	height:0;
+	border-top: 5px solid transparent;
+    border-left: 10px solid #a2e759;
+    border-bottom:5px solid transparent;
+	position:absolute;
+	right:-10px;
+	top:1rem;
+	display:block;
+}
+#footer-tool{
+	width:100%;
+	height:auto;
+	background:#FFF;
+	bottom:0;
+	position:fixed;
+	left:0;
+	border-top:1px solid #F3F3F3;
+	padding-bottom:0.4rem;
+}
+#footer-tool span.voice{
+	width:3.2rem;
+	height:3.2rem;
+	display:block;
+	float:left;
+	margin-top:0.7rem;
+	margin-left:0.5rem;
+}
+#footer-tool span.voice img{
+	width:3.2rem;
+	height:3.2rem;
+	text-align:center;
+}
+#footer-tool .smile-look{
+	width:3.2rem;
+	height:3.2rem;
+	display:block;
+	float:left;
+	margin-top:0.7rem;
+	margin-left:0.5rem;
+}
+#footer-tool .smile-look img{
+	width:3.2rem;
+	height:3.2rem;
+}
+#footer-tool .send{
+	width:4.4rem;
+	height:3.2rem;
+	border:0;
+	background:#19ae16;
+	color:#FFF;
+	font-size:1.6rem;
+	line-height:3.2rem;
+	float:left;
+	outline:0;
+	font-family:'microsoft yahei';
+	margin-top:0.7rem;
+	margin-left:0.5rem;
+	border-radius:5px;
+}
+#footer-tool .footer-left{
+	width:3.7rem;
+	height:3.9rem;
+	float:left;
+}
+#footer-tool .footer-right{
+	width:9rem;
+	height:3.9rem;
+	float:right;
+}
+#footer-tool .content{
+	width:auto;
+	min-height:2rem;
+	_height:2rem;
+	max-height:6rem;
+	line-height:1.6rem;
+	border:0;
+	resize:none;
+	border-bottom:1px solid #2ecc71;
+	margin-top:1.6rem;
+	padding:0;
+	outline:0;
+	font-size:1.6rem;
+	margin-left:4rem;
+	margin-right:9rem;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	_overflow-y: visible;
+}
+/*End chat*/
+/*Start addPets*/
+#addPets{
+	background:#f4f4f4;
+}
+.addPets{
+	width:100%;
+	margin-top:3.85rem;
+	height:auto;
+	overflow:hidden;
+}
+.addPets .headimgurl{
+	width:100%;
+	height:9rem;
+	line-height:9rem;
+	overflow:hidden;
+	text-align:center;
+}
+.addPets .headimgurl img{
+	width:7rem;
+	height:7rem;
+	margin-top:1rem;
+	border-radius:3.5rem;
+}
+.addPets ul.pet-info{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	background:#FFF;
+}
+.addPets ul li.item{
+	width:100%;
+	height:4.2rem;
+	line-height:4.2rem;
+	border-bottom:1px solid #F3F3F3;
+}
+.addPets ul li.item span{
+	width:50%;
+	height:4.2rem;
+	display:block;
+	float:left;
+	text-indent:12px;
+	font-size:1.6rem;
+	font-family:'microsoft yahei';
+}
+.addPets ul li.item input[name=nickname]{
+	width:45%;
+	float:right;
+	padding:0;
+	font-size:1.6rem;
+	color:#8d8d8d;
+	height:3.8rem;
+	border:0;
+	outline:0;
+	text-align:right;
+	margin-right:1rem;
+}
+.addPets ul li.item #sex{
+	/*width:45%;*/
+	float:right;
+	text-align:right;
+	margin-right:1rem;
+}
+.addPets ul li.item input[type=radio]{
+	width:2rem;
+	height:2rem;
+	margin-top:1.1rem;
+	float:left;
+	margin-left:1rem;
+}
+.addPets ul li.item .sex{
+	font-size:1.6rem;
+	width:2rem;
+	height:4.2rem;
+	line-height:4.2rem;
+	display:block;
+	float:left;
+	margin-left:0.5rem;
+	color:#8d8d8d;
+	letter-spacing:1px;
+	font-family:'arial';
+}
+.addPets ul li.item input[name=birthday]{
+	width:43%;
+	float:right;
+	padding:0;
+	font-size:1.6rem;
+	color:#8d8d8d;
+	height:3.8rem;
+	border:0;
+	outline:0;
+	text-align:right;
+	padding-right:1rem;
+	margin-right:0.2rem;
+	background:url(../images/my/enter_arrow.png) right center no-repeat;
+	background-size:0.6rem;
+}
+.addPets ul li.item .weight{
+	/*width:35%;*/
+	height:4.2rem;
+	float:right;
+	margin-right:1rem;
+}
+.addPets ul li.item .weight a{
+	width:3rem;
+	height:3rem;
+	float:left;
+	margin-top:0.6rem;
+}
+.addPets ul li.item .weight a img{
+	width:3rem;
+	height:3rem;
+}
+.addPets ul li.item .weight input{
+	width:3rem;
+	height:4.2rem;
+	border:0;
+	line-height:4.2rem;
+	font-size:2rem;
+	display:block;
+	float:left;
+	background:#FFF;
+	text-align:center;
+	outline:0;
+}
+.addPets .save{
+	width: 90%;
+    height: 3.85rem;
+    line-height: 3.85rem;
+    margin: 0 auto;
+    display: block;
+    background: #2ecc71;
+    border: 0;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 2.2rem;
+    outline: 0;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: #FFF;
+    margin:1rem auto;
+}
+#addPets .validate-mes{
+	width: 100%;
+    height: 3.2rem;
+    background: rgba(43,164,94,.9);
+    position: fixed;
+    top: 3.8rem;
+    left: 0;
+    z-index: 99999;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 3.2rem;
+    color: #FFF;
+    display:none;
+}
+.cate-title{
+	text-align:center;
+	font-size:1.6rem;
+	font-family:'microsoft yahei';
+}
+#addPets .item select{
+	display: block;
+    width: 48%;
+    height: 3rem;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    float:left;
+    margin-top:0.4rem;
+    margin-left:1%;
+}
+#addPets .item select option{
+	height:2.8rem;
+	border:1px solid #CCC;
+}
+/*End addPets*/
+/*Start 个人中心*/
+#personal-center header{
+	width:100%;
+	height:20rem;
+	background:url(../images/timg.jpg) left top no-repeat;
+	background-size:cover;
+}
+/*End 个人中心*/

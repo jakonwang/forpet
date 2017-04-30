@@ -1,0 +1,576 @@
+@charset "utf-8";
+/* start clue-adopt-retrieve */
+#clue-adopt-retrieve{
+	margin-top:4.2rem;
+	margin-bottom:4.8rem;
+	height:auto;
+}
+#clue-adopt-retrieve a{
+	position:relative;
+	display:block;
+	width:83%;
+	height:auto;
+	text-align:center;
+	margin:1rem auto 0;
+	color:#FFF;
+	font-weight:bold;
+	outline:none;
+	border:0;
+	line-height:0;
+}
+#clue-adopt-retrieve img{
+	width:100%;
+	height:auto;
+	border-radius:2rem;
+}
+#clue-adopt-retrieve a>div{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-4rem;
+	margin-top:-3rem;
+}
+#clue-adopt-retrieve h2{
+	font-size:2.4rem;
+	line-height:3rem;
+	letter-spacing:0.2rem;
+}
+#clue-adopt-retrieve #clue div{
+	margin-left:-6.5rem;
+	margin-top:-3rem;
+}
+#clue-adopt-retrieve h3{
+	font-size:1.5rem;
+	line-height:3rem;
+}
+/* end clue-adopt-retrieve */
+/* start wandering-clues,retrieve,adopt */
+#wandering-clues,#retrieve,#adopt{
+	margin-top:4.2rem;
+	margin-bottom:5rem;
+}
+#wandering-clues ul,#retrieve ul{
+	margin:0 auto;
+}
+#wandering-clues ul li.item,#retrieve ul li.item{
+	padding:0 1.1rem;
+	margin:1rem 0;
+	background:#FFF;
+	border-bottom:1px solid #eceef0;
+}
+#wandering-clues .item .thumb,#retrieve .item .thumb{
+	width:4.7rem;
+	height:4.7rem;
+	display:inline-block;
+	float:left;
+}
+#wandering-clues .item .thumb img,#retrieve .item .thumb img{
+	border-radius:4.7rem;
+	text-align:center;
+}
+#wandering-clues .item .title,#retrieve .item .title{
+	display:inline-block;
+	padding:0 0 0 1.2rem;
+	line-height:2.6rem;
+}
+#wandering-clues .item .title h2,#retrieve .item .title h2{
+	font-size:1.6rem;
+	color:#3e3e3e;
+	height:3rem;
+	line-height:3rem;
+	position:relative;
+}
+#wandering-clues .loading{
+	width:3rem;
+	height:3rem;
+	margin:0 auto;
+	
+	background:url(../images/loading.png) no-repeat center center;
+	text-align:center;
+}
+#retrieve .item .title h2 span.type{
+	width:5.25rem;
+	height:1.8rem;
+	line-height:1.8rem;
+	display:block;
+	font-size:1.2rem;
+	color:#eb6100;
+	text-align:center;
+	letter-spacing:1px;
+	background:url(../images/for_pet/type.jpg) left center no-repeat;
+	background-size:5.25rem 1.8rem;
+	position:absolute;
+	top:0.7rem;
+	left:7rem;
+}
+#wandering-clues .item .title p,#retrieve .item .title p{
+	width:100%;
+	font-size:1.3rem;
+	height:1.5rem;
+	line-height:1.5rem;
+	color:#adaead;
+	margin:0;
+	display:block;
+	clear:both;
+	padding:0 0 0 1.8rem;
+	background:url(../images/for_pet/time.png) left center no-repeat;
+	background-size:1.5rem 1.5rem;
+}
+#wandering-clues .item .description,#retrieve .item .description{
+	clear:both;
+	height:auto;
+	font-size:1.4rem;
+	line-height:2rem;
+	padding:0;
+	margin:0.8rem auto;
+	word-wrap:break-word;
+}
+#wandering-clues .item .pic,#retrieve .item .pic{
+	width:100%;
+	height:auto;
+	margin:;
+	clear:both;
+}
+#wandering-clues .item .pic img,#retrieve .item .pic img{
+	float:left;
+	width:31%;
+	height:auto;
+	margin:0 0.2rem 0 0;
+	padding:0.2rem;
+	border-radius:0.5rem;
+	opacity:0.5s;
+}
+#wandering-clues .item .spread,#retrieve .item .spread{
+	width:100%;
+	height:3.8rem;
+	background:url(../images/for_pet/spread.png) left 0.5rem no-repeat;
+	background-size:2.2rem;
+	text-indent:2.6rem;
+	line-height:3.8rem;
+	clear:both;
+	font-size:1.4rem;
+	color:#1d953f;
+}
+#adopt figure{
+	width:97%;
+	height:16rem;
+	margin:0.5rem auto;
+	padding:0;
+	overflow:hidden;
+	background:url(../images/for_pet/adoptlibg.jpg) no-repeat left top;
+	background-size:100% 16rem;
+	position:relative;
+}
+#adopt figure img{
+	margin:2.8rem 0rem 0 1rem;
+	float:left;
+	width:12rem;
+	height:12rem;
+}
+#adopt .about-pet{
+	width:49%;
+	height:100%;
+	float:left;
+	overflow:hidden;
+}
+#adopt figure .pet-name{
+	margin:2.8rem 0 0 10px;
+	font-size:1.4rem;
+}
+#adopt figure p{
+	padding:0;
+	margin:0.5rem 0 0 10px;
+	font-size:1.2rem;
+	line-height:1.7rem;
+	text-indent:2rem;
+}
+#adopt figure .age{
+	background:url(../images/for_pet/age.jpg) no-repeat left center;
+	background-size:1.5rem;
+}
+#adopt figure .pet-type{
+	background:url(../images/for_pet/category.jpg) no-repeat left center;
+	background-size:1.5rem;
+}
+#adopt figure .request{
+	background:url(../images/for_pet/request.jpg) no-repeat left center;
+	background-size:1.5rem;
+	width:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis; 
+}
+#adopt figure .location{
+	background:url(../images/for_pet/location.jpg) no-repeat left center;
+	background-size:1.4rem 1.7rem;
+}
+#adopt figure .pubdate{
+	background:url(../images/for_pet/pubdate.jpg) no-repeat left center;
+	background-size:1.5rem;
+}
+#adopt figure .male,#adopt figure .female,#adopt figure .unmale{
+	display:block;
+	width:1.5rem;
+	height:1.5rem;
+	position:absolute;
+	top:1.5rem;
+	right:1rem;
+}
+#adopt figure .male{
+	background:url(../images/for_pet/male.png) no-repeat left center;
+	background-size:1.5rem;
+}
+#adopt figure .female{
+	background:url(../images/for_pet/female.png) no-repeat left center;
+	background-size:1.5rem;
+}
+#adopt figure .unmale{
+	background:url(../images/for_pet/unmale.png) no-repeat left center;
+	background-size:1.5rem;
+}
+/* end wandering-clues,retrieve,adopt */
+/* start release */
+#release{
+	width:4.1rem;
+	height:4.1rem;
+	position:fixed;
+	left:50%;
+	bottom:5rem;
+	margin-left:-2.05rem;
+	background:url(../images/for_pet/release.png) no-repeat left center;
+	background-size:100%;
+	border-radius:4.1rem;
+	box-shadow:0 0 1rem rgba(0,0,0,.4);
+	z-index:10001;
+}
+.release{
+	width:100%;
+	height:0;
+	filter:alpha(opacity=80);/*子元素不透明*/
+	background-color:rgba(0, 0, 0, 0.8);/*子元素不透明*/
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:10000;
+	display:none;
+}
+.release .release-content{
+	margin-top:10%;
+	height:auto;
+}
+.release .release-content .row{
+	width:90%;
+	height:7rem;
+	background:#FFF;
+	border-radius:0.5rem;
+	margin:0 auto 1rem;
+	padding-top:1rem;
+	box-sizing:border-box;
+}
+.release-content .row img{
+	width:5rem;
+	height:5rem;
+	margin-left:1rem;
+	float:left;
+}
+.release-content .row h3{
+	height:2.5rem;
+	line-height:2rem;
+	margin-left:1rem;
+	font-size:1.8rem;
+	font-weight:bold;
+	font-family:'microsoft yahei';
+	color:#000;
+	margin-left:7rem;
+}
+.release-content .row p{
+	height:2.5rem;
+	line-height:3rem;
+	color:#b7b1b1;
+	font-size:1.5rem;
+	padding:0;
+	margin:0;
+	margin-left:7rem;
+}
+/* end release */
+/*Start add-clues&add-adopt&add-retrieve*/
+.clues-title,.adopt-title{
+	width:100%;
+	height:3.85rem;
+	line-height:3.85rem;
+	background:#2ecc71;
+	text-align: center;
+	font-size: 2.4rem;
+	color:#FFF;
+}
+.add-clues,.add-adopt,.add-retrieve{
+	margin-top: 4.2rem;
+}
+.add-clues .base,.add-adopt .base,.add-retrieve .base{
+	background:#FFF;
+	margin-top:1rem;
+	overflow:auto;
+	display:block;
+}
+.add-clues .row,.add-adopt .row,.add-retrieve .row{
+	height:3.8rem;
+	background:#FFF;
+	line-height:3.8rem;
+	border-bottom:1px solid #CCC;
+}
+.add-clues .row label,.add-adopt .row label,.add-retrieve .row label{
+	font-size:1.5rem;
+	color:#676767;
+	text-indent:1rem;
+	float:left;
+}
+.add-clues .pics h4,.add-adopt .pics h4,.add-retrieve .pics h4{
+	height:3.4rem;
+	background:#FFF;
+	line-height:3.4rem;
+	border-bottom:1px solid #CCC;
+	font-size:1.8rem;
+	font-weight:normal;
+	color:#000;
+	text-indent:1rem;
+}
+.add-clues .pics .pics-upload,.add-adopt .pics .pics-upload,.add-retrieve .pics .pics-upload{
+	height:8.5rem;
+	border-bottom:1px solid #CCC;
+}
+.pics .pics-upload .imgs-container{
+	height:8rem;
+	float:left;
+	margin-top:0.25rem;
+	overflow:hidden;
+	margin-left:0.2rem;
+}
+.pics .pics-upload .imgs-container img{
+	width:8rem;
+	height:8rem;
+	margin:0 0.4rem;
+}
+.pics .pics-upload #uploadImg{
+	width:8rem;
+	height:8rem;
+	margin-top:0.25rem;
+	margin-left:0.1rem;
+}
+.add-clues .row .btn-block,.add-adopt .row .btn-block,.add-retrieve .row .btn-block{
+	font-size:1.5rem;
+	padding:0;
+	border:none;
+	width:80%;
+	float:right;
+	outline:none;
+	color:#676767;
+}
+.add-clues .row .sex,.add-adopt .row .sex,.add-retrieve .row .sex{
+	width:1.8rem;
+	height:1.8rem;
+	margin-top:0.8rem;
+	margin-left:0.5rem;
+	margin-right:0.5rem;
+	background:red;
+	float:left;
+}
+.add-clues .row .male,.add-adopt .row .male,.add-retrieve .row .male{
+	width:2rem;
+	font-size:1.4rem;
+	height:3.4rem;
+	float:left;
+	padding-left:2rem;
+	background:url(../images/for_pet/man.png) no-repeat left center;
+	background-size:1.9rem;
+	text-align:center;
+}
+.add-clues .row .female,.add-adopt .row .female,.add-retrieve .row .female{
+	width:2rem;
+	font-size:1.4rem;
+	height:3.4rem;
+	float:left;
+	padding-left:2rem;
+	background:url(../images/for_pet/woman.png) no-repeat left center;
+	background-size:1.9rem;
+	text-align:center;
+}
+.add-clues .row .unknow,.add-adopt .row .unknow,.add-retrieve .row .unknow{
+	width:3rem;
+	font-size:1.4rem;
+	height:3.4rem;
+	float:left;
+	padding-left:2rem;
+	background:url(../images/for_pet/unknow.png) no-repeat left center;
+	background-size:1.9rem;
+	text-align:center;
+}
+.add-clues .desc,.add-adopt .desc,.add-retrieve .desc{
+	height:14rem;
+	border-bottom:1px solid #CCC;
+}
+.add-clues .desc textarea,.add-adopt .desc textarea,.add-retrieve .desc textarea{
+	width:100%;
+	border:none;
+	outline:none;
+	resize:none;
+	font-size:1.5rem;
+	color:#676767;
+	padding:0.5rem 1rem;
+	text-indent:1rem;
+	line-height:1.8rem;
+	height:14rem;
+	box-sizing:border-box;
+}
+.add-clues .row .telephone,.add-adopt .row .telephone,.add-retrieve .row .telephone{
+	width:75%;
+}
+.add-clues .validate-code .code,.add-adopt .validate-code .code,.add-retrieve .validate-code .code{
+	width:59%;
+	float:left;
+	text-indent:1rem;
+}
+.add-clues .validate-code img,.add-adopt .validate-code img,.add-retrieve .validate-code img{
+	width:22%;
+	height:3.4rem;
+	float:right;
+	margin-top:0.2rem;
+	margin-right:0.1rem;
+}
+.add-clues .base .confirm-btn,.add-adopt .base .confirm-btn,.add-retrieve .base .confirm-btn{
+	width:90%;
+	height:3.85rem;
+	line-height:3.85rem;
+	margin:0 auto;
+	display:block;
+	background:#2ecc71;
+	border:0;
+	border-radius:5px;
+	color:#FFF;
+	font-size:2.2rem;
+	outline:0;
+	-webkit-appearance:none;
+	-webkit-tap-highlight-color:#FFF;
+}
+.add-clues .base .confirm-btn:active,.add-adopt .base .confirm-btn:active,.add-retrieve .base .confirm-btn:active{
+	background:#04be02;
+}
+.add-clues .confirm,.add-adopt .confirm,.add-retrieve .confirm{
+	padding:1rem 0;
+}
+.add-adopt .row .cate-title,.add-retrieve .row .cate-title{
+	text-indent:0;
+	float:left;
+	width:100%;
+	height:3.8rem;
+	line-height:3.8rem;
+	text-align:center;
+}
+.add-adopt .row .form-select,.add-retrieve .row .form-select{
+	display: block;
+    width: 48%;
+    height: 3rem;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    float:left;
+    margin-top:0.4rem;
+    margin-left:1%;
+}
+.add-adopt .row .form-select option,.add-retrieve .row .form-select option{
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height:3em;
+    padding: 0px 2px 1px;
+}
+/*End add-clues&add-adopt&add-retrieve*/
+/*Start wandering-clues-detail*/
+#wandering-clues-detail,#retrieve-detail{
+	margin-top:4.5rem;
+	height:auto;
+	overflow:auto;
+	padding:0 1rem;
+}
+#wandering-clues-detail .publisher,#retrieve-detail .publisher{
+	width:100%;
+	height:4.7rem;
+	margin-bottom:0.8rem;
+}
+#wandering-clues-detail .publisher img,#retrieve-detail .publisher img{
+	width:4.7rem;
+	height:4.7rem;
+	float:left;
+	border-radius:4.7rem;
+}
+#wandering-clues-detail .publisher h2,#retrieve-detail .publisher h2{
+	width:78%;
+	float:left;
+	height:2.4rem;
+	line-height:2.4rem;
+	margin-left:0.5rem;
+	font-size:1.7rem;
+	color:#000;
+	font-family:arial;
+	font-weight:bold;
+}
+#wandering-clues-detail .publisher time,#retrieve-detail .publisher time{
+	width:78%;
+	float:left;
+	line-height:2.3rem;
+	margin-left:0.5rem;
+	color:#666;
+	font-size:1.4rem;
+}
+#wandering-clues-detail .imgsrc,#retrieve-detail .imgsrc{
+	width:100%;
+	height:auto;
+	text-align:center;
+}
+#wandering-clues-detail .imgsrc img,#retrieve-detail .imgsrc img{
+	padding:0;
+	margin:0 auto 0.6rem;
+	float:left;
+}
+#wandering-clues-detail .textdesc,#retrieve-detail .textdesc{
+	width:100%;
+	height:auto;
+}
+#wandering-clues-detail .textdesc .row,#retrieve-detail .textdesc .row{
+	width:100%;
+	height:auto;
+	overflow:auto;
+	margin:2rem auto;
+	clear:both;
+}
+.textdesc .row span{
+	width:24.5%;
+	height:2.8rem;
+	line-height:2.8rem;
+	display:block;
+	font-size:1.5rem;
+	float:left;
+	color:#666;
+	font-family:'microsoft yahei';
+}
+.textdesc .row p{
+	width:75.5%;
+	height:auto;
+	line-height:2.8rem;
+	float:left;
+	padding:0;
+	margin:0;
+	font-size:1.5rem;
+	color:#000;
+	word-wrap:break-word;
+	font-family:'microsoft yahei';
+}
+/*End wandering-clues-detail*/

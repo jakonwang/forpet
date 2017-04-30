@@ -1,0 +1,158 @@
+@charset "utf-8";
+#message-body{
+	background:#f4f4f4;
+}
+/* Start message-header */
+#message-header{
+	width:100%;
+	height:3.85rem;
+	background:#2ecc71;
+	line-height:3.85rem;
+	position:fixed;
+	left:0;
+	top:0;
+}
+#message-header nav{
+	width:100%;
+	height:3.85rem;
+	margin:0;
+	padding:0;
+}
+#message-header nav ul{
+	width:70%;
+	margin:0 auto;
+}
+#message-header nav ul li{
+	float:left;
+	width:50%;
+	text-align:center;
+	color:#FFF;
+	font-size:1.6rem;
+}
+#message-header nav ul li.now{
+	border-bottom:3px solid #FFF;
+	line-height:3.6rem;
+	font-size:1.9rem;
+}
+/* End message-header */
+/* Start  message-main*/
+#message-main{
+	width:100%;
+	margin-top:3.85rem;
+	margin-bottom:5rem;
+}
+#message-main li{
+	height:6.5rem;
+	background:#FFF;
+	border-bottom:1px solid #eceef0;
+}
+#message-main li .message-thumb{
+	box-sizing:border-box;
+	width:22%;
+	float:left;
+	padding-left:1.2rem;
+}
+#message-main li .message-thumb img{
+	width:4rem;
+	height:4rem;
+	border-radius:4rem;
+	margin-top:1.2rem;
+}
+#message-main li #message-desc{
+	width:60%;
+	float:left;
+	box-sizing:border-box;
+	height:5rem;
+	margin-top:0.8rem;
+}
+#message-desc p{
+	margin:0;
+	padding:0;
+}
+#message-desc .message-title{
+	font-size:1.7rem;
+	color:#000;
+	height:2.5rem;
+	line-height:2.5rem;
+}
+#message-desc .message-desc{
+	font-size:1.4rem;
+	color:#AAA;
+	height:2.5rem;
+	line-height:2.5rem;
+}
+#message-main li .message-date{
+	width:18%;
+	float:left;
+	font-size:1.2rem;
+	color:#AAA;
+	padding-top:0.7rem;
+	padding-right:0.7rem;
+	box-sizing:border-box;
+	height:100%;
+	text-align:right;
+}
+/* End message-main */
+/*Start friendsRequest好友申请列表*/
+#friendsRequest{
+	margin-top:3.85rem;
+}
+#friendsRequest ul{
+	height:auto;
+}
+#friendsRequest ul .item{
+	height:5.6rem;
+	border-bottom:1px solid #F3F3F3;
+	overflow:hidden;
+	padding:0 0.5rem;
+	box-sizing:border-box;
+	position:relative;
+}
+#friendsRequest ul .item .headimgurl{
+	width:4.8rem;
+	height:4.8rem;
+	float:left;
+	margin-top:0.4rem;
+	margin-right:0.5rem;
+	border-radius:2.4rem;
+}
+#friendsRequest ul .item .desc{
+	width:75%;
+	height:5.6rem;
+	/*background:red;*/
+	float:left;
+	overflow:hidden;
+}
+#friendsRequest .item .desc h2{
+	height:2.2rem;
+	line-height:2.2rem;
+	font-size:1.6rem;
+	margin-top:0.5rem;
+	color:#000;
+	font-weight:normal;
+	font-family:'microsoft yahei';
+	overflow:hidden;
+}
+#friendsRequest .item .desc p.request{
+	width:100%;
+	height:2.4rem;
+	line-height:2.4rem;
+	word-wrap:break-word;
+	overflow:hidden;
+	margin-top:0;
+}
+#friendsRequest .item .btn{
+	position:absolute;
+	width:5.3rem;
+	height:2.8rem;
+	line-height:2.8rem;
+	top:1rem;
+	right:0.3rem;
+	display:block;
+	background:#2ecc71;
+	text-align:center;
+	color:#FFF;
+	font-size:1.5rem;
+	border-radius:5px;
+}
+/*End friendsRequest*/

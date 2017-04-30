@@ -1,0 +1,32 @@
+#showClueDetail{
+
+}
+#showClueDetail .row .col-md-12{
+	border-bottom:1px dashed #CCC;
+}
+#showClueDetail .row .col-md-12 h4{
+	font-weight:bold;
+	color:#2ecc71;
+}
+#showClueDetail .row .headbg{
+	width:100%;
+	background:url(../images/headbg.jpg) left center no-repeat;
+	padding-top:15px;
+}
+#showClueDetail .row .headimgurl{
+	text-align:center;
+}
+#showClueDetail .row .headimgurl img{
+	width:150px;
+	height:150px;
+	border-radius:75px;
+}
+#showClueDetail .imgsrc img{
+	width:150px;
+	height:auto;
+	margin:10px;
+}
+#showClueDetail .row .description{
+	width:520px;
+	word-break:break-all;
+}
